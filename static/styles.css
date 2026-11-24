@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    background: #f2f4f8;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.container {
+    background: #fff;
+    display: inline-block;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+button {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.hasil {
+    font-weight: bold;
+    margin-top: 20px;
+}

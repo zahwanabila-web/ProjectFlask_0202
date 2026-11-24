@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>ProjectFlask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post">
+            <label>Nama:</label>
+            <input type="text" name="zahwa">
+            <button type="submit">Kirim</button>
+        </form>
+        <p class="hasil">{{ hasil }}</p>
+    </div>
+</body>
+
+</html>
